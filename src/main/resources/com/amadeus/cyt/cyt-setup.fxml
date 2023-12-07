@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="672.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.amadeus.cyt.controller.MainController">
+   <children>
+      <VBox layoutY="-5.0" prefHeight="534.0" prefWidth="202.0" style="-fx-background-color: #E5E5E5;">
+         <children>
+            <VBox prefHeight="148.0" prefWidth="199.0">
+               <children>
+                  <ImageView fitHeight="34.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                     <image>
+                        <Image url="@../../../img/logo-hblu.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="10.0" top="7.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="209.0" text="Installer">
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <Button fx:id="homId" alignment="BASELINE_LEFT" mnemonicParsing="false" mouseTransparent="true" onAction="#onHome" prefHeight="52.0" prefWidth="202.0" styleClass="button" stylesheets="@../../../css/cyt-setup.css" text="Home">
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/home-30.png" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="onDownload" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" mouseTransparent="true" onAction="#onDownload" prefHeight="52.0" prefWidth="202.0" stylesheets="@../../../css/cyt-setup.css" text="Software prerequisites">
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-download-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="gitId" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="221.0" mnemonicParsing="false" mouseTransparent="true" onAction="#onGit" prefHeight="52.0" prefWidth="202.0" stylesheets="@../../../css/cyt-setup.css" text="Git repositories">
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-git-50.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="dbId" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="62.0" mnemonicParsing="false" mouseTransparent="true" onAction="#onDatabase" prefHeight="52.0" prefWidth="202.0" stylesheets="@../../../css/cyt-setup.css" text="Database setup">
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-database-24.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="wlsId" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="114.0" mnemonicParsing="false" mouseTransparent="true" onAction="#onWeblogic" prefHeight="52.0" prefWidth="202.0" stylesheets="@../../../css/cyt-setup.css" text="WebLogic setup">
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-server-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </VBox>
+      <Pane fx:id="dataContent" layoutX="203.0" prefHeight="528.0" prefWidth="469.0" style="-fx-background-color: #fff;" styleClass="c" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="203.0" AnchorPane.rightAnchor="-0.6000000000000227" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="onClose1" layoutX="395.0" layoutY="494.0" mnemonicParsing="false" onAction="#onNext" prefHeight="26.0" prefWidth="61.0" styleClass="bootstrap-btn" stylesheets="@../../../css/cyt-setup.css" text="Next" textAlignment="JUSTIFY" wrapText="true" />
+            <Pane fx:id="innerPane" layoutX="6.0" layoutY="37.0" prefHeight="454.0" prefWidth="456.0" style="-fx-background-color: #ffff;" />
+            <Button fx:id="onClose11" layoutX="14.0" layoutY="494.0" mnemonicParsing="false" onAction="#onPrev" prefHeight="26.0" prefWidth="67.0" styleClass="bootstrap-btn" stylesheets="@../../../css/cyt-setup.css" text="Previous" textAlignment="JUSTIFY" />
+            <!-- make  below button round!-->
+            <Button fx:id="onClose" layoutX="441.0" layoutY="3.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #FF0000;" text="X" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

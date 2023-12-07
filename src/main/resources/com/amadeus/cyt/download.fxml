@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="456.0" prefWidth="456.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.amadeus.cyt.controller.Download">
+   <children>
+      <HBox prefHeight="18.0" prefWidth="462.0" style="-fx-background-color: #FFBF00;">
+         <children>
+            <Label prefHeight="18.0" prefWidth="458.0" text="  All Softwares are required, they will be downloaded in your user folder">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <VBox fx:id="vboxPane" layoutX="1.0" layoutY="18.0" prefHeight="435.0" prefWidth="456.0" spacing="3.0">
+         <children>
+            <Pane prefHeight="71.0" prefWidth="451.0" style="-fx-background-color: #fafaf7;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-java-48.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="65.0" layoutY="26.0" prefHeight="20.0" prefWidth="54.0" text="Java" />
+                  <Label layoutX="150.0" layoutY="13.0" prefHeight="17.0" prefWidth="241.0" text="Installed Version:" wrapText="true" />
+                  <Label layoutX="150.0" layoutY="43.0" prefHeight="17.0" prefWidth="241.0" text="Recomended Version:" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="71.0" prefWidth="451.0" style="-fx-background-color: #fafaf7;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../img/icons8-nodejs-48.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="65.0" layoutY="26.0" prefHeight="20.0" prefWidth="54.0" text="Node Js" />
+                  <Label layoutX="150.0" layoutY="10.0" prefHeight="17.0" prefWidth="241.0" text="Installed Version:" wrapText="true" />
+                  <Label layoutX="150.0" layoutY="39.0" prefHeight="17.0" prefWidth="241.0" text="Recomended Version:" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="71.0" prefWidth="451.0" style="-fx-background-color: #fafaf7;">
+               <children>
+                  <Label layoutX="65.0" layoutY="26.0" prefHeight="20.0" prefWidth="54.0" text="Database" />
+                  <Label layoutX="150.0" layoutY="21.0" prefHeight="30.0" prefWidth="298.0" text="Installed Version:" wrapText="true" />
+                  <ImageView fitHeight="20.0" fitWidth="30.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/sql-server%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="71.0" prefWidth="451.0" style="-fx-background-color: #fafaf7;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-oracle-logo-48.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="65.0" layoutY="26.0" prefHeight="20.0" prefWidth="54.0" text="Weblogic">
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="236.0" prefHeight="142.0" prefWidth="456.0" style="-fx-background-color: #fafaf7;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="22.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-intellij-idea-48.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="41.0" prefHeight="20.0" prefWidth="30.0" text="IDE" wrapText="true">
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="92.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/icons8-git-red.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="162.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/oracle%20dev.png" />
+                     </image>
+                  </ImageView>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" layoutX="159.0" layoutY="41.0" prefHeight="20.0" prefWidth="60.0" text="SQL Dev" wrapText="true" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="92.0" layoutY="41.0" prefHeight="20.0" prefWidth="30.0" text="Git" textAlignment="CENTER" wrapText="true" />
+                  <Label contentDisplay="TOP" graphicTextGap="0.0" layoutX="14.0" layoutY="4.0" prefHeight="20.0" prefWidth="194.0" text="Other Softwares">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" layoutX="232.0" layoutY="41.0" prefHeight="20.0" prefWidth="54.0" text="Maven" wrapText="true" />
+                  <Label contentDisplay="TOP" graphicTextGap="0.0" layoutX="302.0" layoutY="41.0" prefHeight="20.0" prefWidth="54.0" text="Gradle" />
+                  <Label contentDisplay="TOP" graphicTextGap="0.0" layoutX="372.0" layoutY="41.0" prefHeight="20.0" prefWidth="54.0" text="JIndent" />
+                  <ImageView fitHeight="30.0" fitWidth="54.0" layoutX="232.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/maven.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="54.0" layoutX="302.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/gardle.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="54.0" layoutX="372.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/code.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</Pane>

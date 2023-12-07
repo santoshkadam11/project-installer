@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="456.0" prefWidth="456.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-4.0" prefHeight="80.0" prefWidth="469.0" style="-fx-background-color: #4287f5;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="47.0" prefWidth="385.0" text="Welcome To Cytric Installer" textFill="WHITE">
+               <font>
+                  <Font name="Gill Sans MT Condensed" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="4.0" layoutY="84.0" prefHeight="370.0" prefWidth="456.0" style="-fx-background-color: #fff;">
+         <children>
+            <TextArea editable="false" opacity="0.79" pickOnBounds="false" prefHeight="356.0" prefWidth="456.0" styleClass="text-area-label" stylesheets="@../../../css/cyt-setup.css" text="This setup is recommended exclusively for Windows installation, aiming to address legacy issues associated with manual Cytric setup on Windows &#10;laptops. &#10;&#10;Below are the key actions that will be followed in this setup:&#10;&#10;• Downloading Required Software: The setup will attempt to download all the &#10;   necessary software components.&#10;&#10;• Repository Retrieval: It will try to pull the ibetms  repository (please ensure&#10;   you have access to Git SCM).&#10;&#10;• Local Database Installation: If a local database instance is not present, the&#10;   setup will install one and apply the default schema from a specified&#10;   location. It will also execute scripts for user and role creation.&#10;&#10;• WebLogic Setup: The setup will download WebLogic (if not already present)&#10;   and create a domain for Cytric.&#10;&#10;• Deployment Directory Symlinks: Symlinks for the deployment directory will&#10;  be created.&#10;&#10;• IDE (IntelliJ) Installation: The setup will download IntelliJ IDE and configure it&#10;   with default settings." wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
