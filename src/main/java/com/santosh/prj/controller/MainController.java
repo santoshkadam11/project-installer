@@ -1,7 +1,7 @@
-package com.amadeus.cyt.controller;
+package com.santosh.prj.controller;
 
 
-import com.amadeus.cyt.CytSetup;
+import com.santosh.prj.CytSetup;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

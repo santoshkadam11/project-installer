@@ -1,7 +1,7 @@
-package com.amadeus.cyt.controller;
+package com.santosh.prj.controller;
 
 
-import com.amadeus.cyt.service.GitClone;
+import com.santosh.prj.service.GitClone;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

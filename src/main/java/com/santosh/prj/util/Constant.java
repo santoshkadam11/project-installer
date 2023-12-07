@@ -1,4 +1,4 @@
-package com.amadeus.cyt.util;
+package com.santosh.prj.util;
 
 
 public class Constant

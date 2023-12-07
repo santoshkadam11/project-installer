@@ -1,7 +1,7 @@
-package com.amadeus.cyt.service;
+package com.santosh.prj.service;
 
 
-import com.amadeus.cyt.util.Constant;
+import com.santosh.prj.util.Constant;
 
 import java.io.File;
 import java.io.FileNotFoundException;

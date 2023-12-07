@@ -1,14 +1,14 @@
-module com.amadeus.cyt {
+module com.santosh.prj {
    requires javafx.controls;
    requires javafx.fxml;
    requires javafx.web;
 
    requires org.kordamp.ikonli.javafx;
 
-   opens com.amadeus.cyt to javafx.fxml;
-   exports com.amadeus.cyt;
-   exports com.amadeus.cyt.controller;
-   opens com.amadeus.cyt.controller to javafx.fxml;
-   exports com.amadeus.cyt.enums;
-   opens com.amadeus.cyt.enums to javafx.fxml;
+   opens com.santosh.prj to javafx.fxml;
+   exports com.santosh.prj;
+   exports com.santosh.prj.controller;
+   opens com.santosh.prj.controller to javafx.fxml;
+   exports com.santosh.prj.enums;
+   opens com.santosh.prj.enums to javafx.fxml;
 }

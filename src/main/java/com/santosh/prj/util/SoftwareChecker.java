@@ -1,7 +1,7 @@
-package com.amadeus.cyt.util;
+package com.santosh.prj.util;
 
 
-import com.amadeus.cyt.enums.CytSoftware;
+import com.santosh.prj.enums.CytSoftware;
 
 import java.io.BufferedReader;
 import java.io.IOException;

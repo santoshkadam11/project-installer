@@ -1,4 +1,4 @@
-package com.amadeus.cyt.enums;
+package com.santosh.prj.enums;
 
 
 public enum PrjSoftware

@@ -1,8 +1,8 @@
-package com.amadeus.cyt.controller;
+package com.santosh.prj.controller;
 
 
-import com.amadeus.cyt.enums.CytSoftware;
-import com.amadeus.cyt.util.SoftwareChecker;
+import com.santosh.prj.enums.CytSoftware;
+import com.santosh.prj.util.SoftwareChecker;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
